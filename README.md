@@ -26,16 +26,17 @@ This project is a **Proof-of-Concept (PoC) Encrypted Keylogger** designed exclus
 
 ## 📁 Project Structure
 keylogger_project/
-├── keylogger.py            # Main keylogger script
-├── server.py               # Simulated localhost TCP server
-├── config.py               # Key generator script (Fernet key)
-├── decrypt_log.py          # Text-based decryption
-├── decrypt_to_html.py      # Decrypts and builds HTML report
-├── keylog_encrypted.log    # [Ignored] Encrypted keystrokes
-├── keylog_decrypted.txt    # [Ignored] Decrypted logs
-├── keylog_report.html      # [Ignored] Browser report output
-├── secret.key              # ❗ Do NOT upload this key
+├── keylogger.py            
+├── server.py              
+├── config.py               #
+├── decrypt_log.py        
+├── decrypt_to_html.py      
+├── keylog_encrypted.log    
+├── keylog_decrypted.txt   
+├── keylog_report.html      
+├── secret.key              
 └── README.md
+
  Getting Started
 Step 1: Environment Setup
 bash
